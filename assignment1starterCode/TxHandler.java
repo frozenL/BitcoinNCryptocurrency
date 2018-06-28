@@ -6,6 +6,7 @@ public class TxHandler {
      * constructor.
      */
     public TxHandler(UTXOPool utxoPool) {
+        private UTXOPool pool = new UTXOPool(utxoPool);
         // IMPLEMENT THIS
     }
 
